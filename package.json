@@ -1,0 +1,24 @@
+{
+  "name": "icecream-nord-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Colorful dark syntax theme, using the amazing nord syntax as basis, colors are inspired by childhood memories",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark",
+    "minimal",
+    "colorful",
+    "graffiti",
+    "custard",
+    "icecream",
+    "strawberry",
+    "milkshake",
+    "candy"
+  ],
+  "repository": "https://github.com/pixxx/icecream-nord-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  }
+}

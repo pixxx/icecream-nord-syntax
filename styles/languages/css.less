@@ -1,0 +1,78 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language CSS                                        +
+project    nord-atom-syntax                                    +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// -MOD=>---------------######-----------#-#--------------------
+// --------------------------------------#-#--------------------
+// -------------------##########--------#--##-------------------
+// ------------------------#-----------#---#-#------------------
+// ------------------------#---------##----#--#-----------------
+// -----------------------#--------##------#--------------------
+// ---------------------##-------##--------#-----------+Postcss-
+Supports LessCSS, Sass/SCSS & PostCSS.
+
+[Language Packages]
+  > language-css (https://atom.io/packages/language-css)
+
+[References]
+LESSCSS
+  (http://lesscss.org)
+Sass
+  (http://sass-lang.com)
+W3C
+  (https://www.w3.org/TR/css3-roadmap)
+*/
+
+.syntax--source.syntax--css,
+.syntax--source.syntax--css.syntax--less,
+.syntax--source.syntax--css.syntax--scss,
+.syntax--source.syntax--css.syntax--sass,
+.syntax--source.syntax--css.syntax--postcss {
+  .syntax--meta {
+    &.syntax--at-rule {
+      .syntax--punctuation.syntax--definition.syntax--keyword {
+        color: @syntax-color-keyword;
+      }
+
+      & > .syntax--string.syntax--quoted {
+        color: @syntax-color-class;
+      }
+    }
+
+    &.syntax--property-value {
+      .syntax--punctuation.syntax--definition.syntax--constant {
+        color: @syntax-color-keyword;
+      }
+    }
+  }
+
+  .syntax--support {
+    &.syntax--constant.syntax--property-value {
+      color: @syntax-color-keyword;
+    }
+    // @syntax-color-css-property will not display
+    // it can't be the 25 letters as I think there is a longer name that does work.
+    // maybe duplicate issue.
+    &.syntax--type.syntax--property-name {
+      color: @syntax-color-css-prop;
+    }
+  }
+  // Only place I used custom colors in the language templates I think.
+  .syntax--variable {
+    &.syntax--scss,
+    &.syntax--sass,
+    &.syntax--postcss {
+      color: @--lightgum;
+    }
+  }
+
+  &.syntax--postcss {
+    color: @--icecream;
+  }
+
+}

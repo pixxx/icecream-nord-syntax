@@ -1,0 +1,97 @@
+// Atom syntax theme: nord-atom-syntax by Arctic Ice Studio-----
+// https://github.com/arcticicestudio/nord-atom-syntax----------
+// -------------------------------------------------------------
+// -MOD=>---------------######-----------#-#--------------------
+// --------------------------------------#-#--------------------
+// -------------------##########--------#--##-------------------
+// ------------------------#-----------#---#-#------------------
+// ------------------------#---------##----#--#-----------------
+// -----------------------#--------##------#--------------------
+// ---------------------##-------##--------#-----------(c) 2017-
+
+// + Imports / Variables
+@import "colors";
+@pi:                     pi();
+@rem:                    rem;
+@pims:                   pi()*100ms;
+// + Animations +
+@syntax-transition-time: @pims;
+// + Sizes +
+@syntax-border-radius:   ~"@{pi}@{rem}";
+
+// + Base +
+@syntax-background-color:      @--dark-gray;
+@syntax-cursor-line:           fade(@--gray, 32%);
+@syntax-selection-color:       fade(@--gray, 80%);
+@syntax-selection-flash-color: @--lime;
+@syntax-text-color:            @--snow;
+
+// + Editor Elements +
+@syntax-cursor-color:              @syntax-text-color;
+@syntax-indent-guide-color:        @--guides;
+@syntax-invisible-character-color: @--guides;
+@syntax-wrap-guide-color:          @--guides;
+
+// + Git +
+@syntax-color-added:    @--green;
+@syntax-color-modified: @--yellow;
+@syntax-color-removed:  @--red;
+@syntax-color-renamed:  @--blue;
+
+// + Gutter +
+@syntax-gutter-background-color:          @syntax-background-color;
+@syntax-gutter-background-color-selected: transparent;
+@syntax-gutter-icon-color-folded:         @--cyan;
+@syntax-gutter-text-color:                @syntax-gutter-text-color-subtle;
+@syntax-gutter-text-color-selected:       @--snow; // Careful!
+@syntax-gutter-text-color-subtle:         fade(@syntax-text-color, 40%);
+
+// + Language Entities + Base +
+@syntax-color-annotation:   @--orange;
+@syntax-color-attribute:    @--icecream; // css classnames (attributes)
+@syntax-color-attribute-id: @--cyan;
+@syntax-color-class:        @--darksnow;
+@syntax-color-comment:      @--gray;
+@syntax-color-constant:     @--icecream;
+@syntax-color-embedded:     @--lime;
+@syntax-color-escape:       @--gum;
+@syntax-color-function:     @--snow;
+@syntax-color-import:       @--aqua;
+@syntax-color-keyword:      @--blue; // block, transparent, auto ...
+@syntax-color-method:       @--aqua;
+@syntax-color-numeric:      @--gum;
+@syntax-color-operator:     @--skyline;
+@syntax-color-placeholder:  @--lime;
+@syntax-color-preprocessor: @--limeliteblue;
+@syntax-color-primitive:    @--palegreen;
+@syntax-color-property:     @--palegreen;
+@syntax-color-punctuation:  @--gum;
+@syntax-color-regexp:       @--yellow;
+@syntax-color-require:      @--cyan;
+@syntax-color-selector:     @--icecream;
+@syntax-color-snippet:      @--light-gray;
+@syntax-color-storage:      @--lightgum;
+@syntax-color-string:       @--yellow;
+@syntax-color-tag:          @--lightgum; // standard html tags
+@syntax-color-type:         @--lightgum;
+@syntax-color-unit:         @--blue; // any number value in css
+@syntax-color-variable:     @--snow;
+@syntax-deprecated:         @--deprecated;
+@syntax-illegal:            @--illegal;
+
+// + Specific +
+@syntax-color-css-prop:              @--yellow;
+@syntax-color-gfm-hr:                @--cyan;
+@syntax-color-gfm-link:              @--limeliteblue;
+@syntax-color-gfm-punctuation:       @--gray;
+@syntax-color-java-bracket-angle:    @--icecream;
+@syntax-color-markup-code:           @--aqua;
+@syntax-color-markup-entity:         @--deprecated;
+@syntax-color-markup-heading:        @--icecream;
+@syntax-color-markup-heading-marker: @--aqua;
+@syntax-color-markup-quote:          @--lightgum;
+
+// + Marker +
+@syntax-bracket-matcher-color:        @--lime;
+@syntax-result-marker-color:          fade(@--icecream, 20%);
+@syntax-result-marker-color-selected: @--icecream;
