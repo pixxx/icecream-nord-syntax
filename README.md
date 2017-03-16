@@ -1,11 +1,11 @@
 # icecream-nord-syntax
-:icecream: :custard: :candy:
+:icecream: :custard: :cake: :candy: :coffee: :doughnut: :dango: :fish_cake: :lollipop: :chocolate_bar: :shaved_ice: :smiling_imp:
 
 #### ...a modified [___Nord Atom Syntax___](https://atom.io/themes/nord-atom-syntax)
 
-Very colorful dark syntax theme, using the amazing [_nord-atom-syntax_](https://atom.io/themes/nord-atom-syntax) as basis, why is this not forked then dude? :bird: , well I literally copied the code on top of a scaffold created with atom syntax theme generator, :scream: hell!
+Very colorful dark syntax theme, using the amazing [_nord-atom-syntax_](https://atom.io/themes/nord-atom-syntax) as basis, why is this not forked then, :rage: :bird: I literally copied the code on top of a scaffolding, created with atom syntax theme generator :scream:
 
-Guess I had too much of these :icecream: :custard: :candy: and this :coffee:
+Guess I had too much of these :shaved_ice: :custard: :cake: :fish_cake: and :coffee:
 
 LessCSS Example:
 
