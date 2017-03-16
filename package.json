@@ -1,7 +1,7 @@
 {
   "name": "icecream-nord-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Colorful dark syntax theme, using the amazing nord syntax as basis, colors are inspired by childhood memories",
   "keywords": [
     "syntax",
