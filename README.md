@@ -1,14 +1,40 @@
 # icecream-nord-syntax
-:icecream: :custard: :cake: :candy: :coffee: :doughnut: :dango: :fish_cake: :lollipop: :chocolate_bar: :shaved_ice: :smiling_imp:
 
-#### ...a modified [___Nord Atom Syntax___](https://atom.io/themes/nord-atom-syntax)
+---
+:strawberry: :icecream: :custard: :cake: :candy: :coffee: :doughnut: :dango: :fish_cake: :lollipop: :chocolate_bar: :shaved_ice: :oden: :ice_cream: :honey_pot: :smiling_imp:
 
-Very colorful dark syntax theme, using the amazing [_nord-atom-syntax_](https://atom.io/themes/nord-atom-syntax) as basis, why is this not forked then, :rage: :bird: I literally copied the code on top of a scaffolding, created with atom syntax theme generator :scream:
+> ATOM / Github loves icecream with 5 to choose from :smiley:
 
-Guess I had too much of these :shaved_ice: :custard: :cake: :fish_cake: and :coffee:
+#### A modified [___Nord Atom Syntax___](https://atom.io/themes/nord-atom-syntax)
+- Theme started with atom package generator!
 
-LessCSS Example:
+_inspried by_ :ice_cream: + :strawberry: + :custard: + :floppy_disk: + :vhs: + :jack_o_lantern:
 
-![Icecream Nord Less](https://raw.githubusercontent.com/pixxx/icecream-nord-syntax/master/icecream-nord-less.png)
+---
+## Installation
 
-Nord supports many languages, there might be colors not working so well right now, because of that. I still have to go through them all... And I might add or remove a few languages! But rather "add" because it's a nice to have support for all those langauges I think.
+### Atom:
+
+Open **Settings** > **Install**
+Set the _**filter to Themes**_
+Search for **icecream-nord-syntax** and install
+
+#### Activation:
+
+Open **Settings** > **Themes**
+Select **Icecream Nord** from the Syntax Theme drop-down menu
+
+### CLI:
+
+` apm install icecream-nord-syntax `
+
+---
+### Example:
+
+`.less`
+
+> <img src="https://raw.githubusercontent.com/pixxx/icecream-nord-syntax/master/icecream-nord-less.png" alt="example_less_css" height="auto" width="600">
+
+---
+
+:beginner: **[icecream-nord-syntax](https://atom.io/themes/icecream-nord-syntax)** @ [ATOM](https://atom.io)
