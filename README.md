@@ -1,6 +1,6 @@
 # icecream-nord-syntax
 
----
+
 :strawberry: :icecream: :custard: :cake: :candy: :coffee: :doughnut: :dango: :fish_cake: :lollipop: :chocolate_bar: :shaved_ice: :oden: :ice_cream: :honey_pot: :smiling_imp:
 
 > ATOM / Github loves icecream with 5 to choose from :smiley:
@@ -11,6 +11,7 @@
 _inspried by_ :ice_cream: + :strawberry: + :custard: + :floppy_disk: + :vhs: + :jack_o_lantern:
 
 ---
+
 ## Installation
 
 ### Atom:
@@ -29,9 +30,8 @@ Select **Icecream Nord** from the Syntax Theme drop-down menu
 ` apm install icecream-nord-syntax `
 
 ---
-### Example:
 
-`.less`
+> ### Example: `syntax.less`
 
 > <img src="https://raw.githubusercontent.com/pixxx/icecream-nord-syntax/master/icecream-nord-less.png" alt="example_less_css" height="auto" width="600">
 
